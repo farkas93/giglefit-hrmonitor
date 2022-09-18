@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.1.0"
+  },
+  "fitbit": {
+    "appUUID": "8ff8db89-f8f1-484b-8120-1d663d7fb5ca",
+    "appType": "app",
+    "appDisplayName": "GigleHRMonitor",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#f44336",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity",
+      "access_internet"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "GigleHRMonitor"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
